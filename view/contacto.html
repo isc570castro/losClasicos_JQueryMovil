@@ -1,0 +1,36 @@
+
+<div data-roles="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arro-r" data-expanded-icon="arrow-d">
+	<div data-role="collapsible" data-theme="a" data-content-theme="a">
+		<h3>Peticiones</h3>
+		<form id="form1" action="?c=servicios&a=mensaje" method="post" data-ajax="false">
+			<select name="solicitud">
+				<option value="comentario">Comentario</option>
+				<option value="sugerencia">Sugerencia</option>
+				<option value="pregunta">Pregunta</option>
+			</select>
+			<textarea placeholder="Introduce tu comentario" name="comentario"></textarea>
+			<input type="text" name="telefono" placeholder="Ingresa tu téfono para contactarte">
+			<input type="submit" name="enviar" value="Enviar">
+		</form>
+	</div>
+	<div data-role="collapsible" data-theme="a" data-content-theme="a">
+		<h3> Información del contacto</h3>
+		<p>Si deseas más información puedes contactarnos a los telefonos:</p>
+		<ul>
+			<li>492-113-4553</li>
+			<li>492-113-4553</li>
+			<li>492-113-4553</li>
+		</ul>
+	</div>
+	<div data-role="collapsible" data-theme="a" data-content-theme="a">
+		<h3>Ubicación de oficina</h3>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.820026393098!2d-103.57528528557604!3d22.7720593850805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869d2aec989c6ba1%3A0x45732029214ae420!2zQ29sw7NuIDcsIExhIFZpw7FhLCA5OTI1OCBWYWxwYXJhw61zbywgWmFjLiwgTcOpeGljbw!5e0!3m2!1ses-419!2sco!4v1475011756854" width="700" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+</div>
+<style type="text/css">
+iframe{
+	height: 350px;
+	width:100%;
+}
+</style>
+
